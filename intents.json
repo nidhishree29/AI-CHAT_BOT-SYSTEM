@@ -1,0 +1,122 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Thank you everyone who helped me"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["your name", "Your name", "What's your name"],
+      "responses": ["My name is Nakshira"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "ngit",
+      "patterns": [
+        "can you show me top ou college",
+        "what is best college?",
+        "is neil gogte a good college"
+
+      ],
+      "responses": [
+        "Neil Gogte Institute of technology is the best college in hyderabad with closing rank of 10k for cse, it deals with best courses for COMPUTER SCIENCES"
+      ]
+    },
+    {
+      "tag": "UNDER 5k",
+      "patterns": [
+        "i got rank under 5k",
+        "under 5k",
+        "best colleges",
+        "2246"
+
+      ],
+      "responses": [
+        "Under 5k the colleges we recomend are : 1. JNTU, Hyderabad-<a href='https://jntuh.ac.in/'>JNTU</a> 2. OU College of Engineering Hyderabad-<a href='https://www.osmania.ac.in/'>OU</a> 3. CBIT, Hyderabad-<a href='https://www.cbit.ac.in/'>CBIT</a> 4.Vasavi college of engineering-<a href='https://www.vce.ac.in/'>VASAVI</a>  5.Sreenidhi institute of science and technology-<a href='https://sreenidhi.edu.in/'>SREENIDHI</a> 6.VNRV JIET , hyderabad-<a href='http://www.vnrvjiet.ac.in/'>VNRV</a> 7.KMIT ,Hyderabad-<a href='https://kmit.in/'>KMIT</a> 8. vardhaman,Hyderabad-<a href='https://vardhaman.org/'>VARDHAMAN</a>"
+      ]
+    },
+    {
+      "tag": "UNDER 10k",
+      "patterns": [
+        "i got rank under 10k",
+        "under 10k",
+        "5k-10k",
+        "8456",
+        "moderate college"
+
+
+      ],
+      "responses": [
+        "Under 10k the colleges we recomend are : 1.JNTU, Hyderabad-<a href='https://jntuh.ac.in/'>JNTU</a> 2.OU, Hyderabad-<a href='https://www.osmania.ac.in/'>OU</a> 3. NGIT ,HYDERABAD- <a href='http://ngit.ac.in/'>NGIT</a>  4 . CVSR,hyderabad-<a href='https://anurag.edu.in/'>CVSR</a> 5. MVSR,hyderabad-<a href='https://anurag.edu.in/'>MVSR</a> 6. MGIT,hyderabad--<a href=''>MGIT</a> 5.GRRR, hyderabad-<a href='https://anurag.edu.in/'>GRRR</a> "
+      ]
+    },
+    {
+      "tag": "UNDER 25k",
+      "patterns": [
+        "i got rank under 25k",
+        "under 25k",
+        "10k-25k",
+        "average college",
+        "20k-25k"
+
+      ],
+      "responses": [
+        "Under 10k the colleges we recomend are : 1.Mahaveer-<a href='https://mist.ac.in/'>MAHAVEER</a> , 2.vidya jyothi institute of technology-<a href='https://vjit.ac.in/'>VJIT</a> , 3.Vignan Bharathi-<a href='https://vbithyd.ac.in/'>VIGNAN BHARATHI</a> , 4.Nalla malla reddy-<a href='https://www.nmrec.edu.in/'>NALLA MALLA REDDY</a>, 5.Malla Reddy-<a href='https://www.mallareddyuniversity.ac.in/'>MALLA REDDY</a> 6. Gurunanak-<a href='https://gnuindia.org/'>GURUNANAK</a> 7. CVR-<a href='https://cvr.ac.in/home4/'>CVR</a> 8.Geetanjali-<a href='http://www.geethanjaliinstitutions.com/engineering/'>GEETANJALI</a> 9.Aurora-<a href='https://www.aurora.in/atri/'>AURORA</a> 10. Anurag -<a href='https://anurag.edu.in/'>ANURAG</a>"        
+      ]
+    },
+    {
+      "tag": "Above 25k",
+      "patterns": [
+        "i got rank above 25k",
+        "above 25k",
+        "25k-50k",
+        "50k-75k",
+        "below average college"
+
+      ],
+      "responses": [
+        "Above 25k the colleges we recomend are : 1.Hyderabad Institue of tech-<a href='https://hitam.org/'>HIT</a> , 2.Sri Indu-<a href='https://sriindu.ac.in/'>SRI INDU</a> , 3.Gurunanak-<a href='https://gnuindia.org/'>GURUNANAK</a> , 4.Viveka Nanda Institute of tech-<a href='https://collegedunia.com/college/15537-vivekananda-institute-of-technology-and-science-vits-karimnagar'>VIVEKA NANDA</a>, 5.Bharath Institue-<a href='http://biet.ac.in/'>BHARAT</a> 6.TKR-<a href='http://biet.ac.in/'>TKR</a> 7.Sreyas institue of tech-<a href='https://sreyas.ac.in/'>SREYAS</a> 8.SR university-<a href='https://sru.edu.in/'>SRU</a> 9.Spoorty institue of tech-<a href='https://sphoorthyengg.ac.in/'>SPOORTY</a> "        
+      ]
+    }
+
+  ]
+}
